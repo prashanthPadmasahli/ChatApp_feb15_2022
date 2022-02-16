@@ -24,7 +24,6 @@ struct ContentView: View {
                 }
                 .onAppear {
                     value.scrollTo(arr.last?.id)
-                    print("On appear")
                 }
                 .onChange(of: arr.count) { _ in
                     value.scrollTo(arr.last?.id)
