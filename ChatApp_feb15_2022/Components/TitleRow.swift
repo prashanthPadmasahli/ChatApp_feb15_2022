@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TitleRow: View {
     let imgUrl = URL(string: "https://images.unsplash.com/photo-1627087820883-7a102b79179a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGFpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60")
-    let name = "Prashanth Padmashali"
+    let name = "Prashanth kumar Padmashali"
     
     var body: some View {
         HStack {
